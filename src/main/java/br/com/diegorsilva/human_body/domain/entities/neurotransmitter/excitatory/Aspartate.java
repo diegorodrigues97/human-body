@@ -1,13 +1,13 @@
-package br.com.diegorsilva.human_body.neurotransmitter.excitatory;
+package br.com.diegorsilva.human_body.domain.entities.neurotransmitter.excitatory;
 
-import br.com.diegorsilva.human_body.aminoacid.IAminoAcid;
+import br.com.diegorsilva.human_body.domain.entities.organic_molecule.AminoAcid;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * Represents Aspartate, an excitatory neurotransmitter that is also a non-essential amino acid.
+ * Represents Aspartate, an excitatory neurotransmitter and an amino acid.
  */
 @Slf4j
-public class Aspartate implements IExcitatoryNeurotransmitter, IAminoAcid {
+public class Aspartate extends AminoAcid implements IExcitatoryNeurotransmitter {
 
     @Override
     public void transmitSignal() {

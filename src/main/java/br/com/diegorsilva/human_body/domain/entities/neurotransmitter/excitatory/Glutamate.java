@@ -1,13 +1,13 @@
-package br.com.diegorsilva.human_body.neurotransmitter.excitatory;
+package br.com.diegorsilva.human_body.domain.entities.neurotransmitter.excitatory;
 
-import br.com.diegorsilva.human_body.aminoacid.IAminoAcid;
+import br.com.diegorsilva.human_body.domain.entities.organic_molecule.AminoAcid;
 import lombok.extern.slf4j.Slf4j;
 
 /**
  * Represents Glutamate, an abundant excitatory neurotransmitter that is also a non-essential amino acid.
  */
 @Slf4j
-public class Glutamate implements IExcitatoryNeurotransmitter, IAminoAcid {
+public class Glutamate extends AminoAcid implements IExcitatoryNeurotransmitter {
 
     @Override
     public void transmitSignal() {
