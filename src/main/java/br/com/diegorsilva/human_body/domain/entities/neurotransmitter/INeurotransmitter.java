@@ -8,15 +8,5 @@ public interface INeurotransmitter {
 
     String getName();
 
-    /**
-     * Transmits a neural signal.
-     */
-    void transmitSignal();
-
-    /**
-     * Binds to a specific postsynaptic receptor.
-     */
-    void bindToReceptor();
-
     String getChemicalFormula();
 }

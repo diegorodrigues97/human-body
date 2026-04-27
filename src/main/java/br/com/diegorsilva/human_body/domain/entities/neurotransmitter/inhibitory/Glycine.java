@@ -1,6 +1,6 @@
 package br.com.diegorsilva.human_body.domain.entities.neurotransmitter.inhibitory;
 
-import br.com.diegorsilva.human_body.domain.entities.organic_molecule.AminoAcid;
+import br.com.diegorsilva.human_body.domain.entities.organic_molecule.IAminoAcid;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -8,7 +8,7 @@ import lombok.extern.slf4j.Slf4j;
  * It is also the simplest amino acid.
  */
 @Slf4j
-public class Glycine extends AminoAcid implements IInhibitoryNeurotransmitter {
+public class Glycine implements IInhibitoryNeurotransmitter, IAminoAcid {
 
     @Override
     public void inhibitSignal() {
