@@ -5,5 +5,7 @@ import br.com.diegorsilva.human_body.domain.entities.neurotransmitter.INeurotran
 public interface IInhibitoryNeurotransmitter extends INeurotransmitter {
     void inhibitSignal();
     void bindToInhibitoryReceptor();
+    void transmitSignal();
+    void bindToReceptor();
     String getChemicalFormula();
 }

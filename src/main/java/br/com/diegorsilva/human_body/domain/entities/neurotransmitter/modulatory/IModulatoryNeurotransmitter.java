@@ -5,5 +5,7 @@ import br.com.diegorsilva.human_body.domain.entities.neurotransmitter.INeurotran
 public interface IModulatoryNeurotransmitter extends INeurotransmitter {
     void modulateSignal();
     void bindToModulatoryReceptor();
+    void transmitSignal();
+    void bindToReceptor();
     String getChemicalFormula();
 }
