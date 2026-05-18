@@ -1,6 +1,6 @@
 package br.com.diegorsilva.human_body.domain.entities.neurotransmitter.modulatory;
 
-import br.com.diegorsilva.human_body.domain.entities.organic_molecule.Amine;
+import br.com.diegorsilva.human_body.domain.entities.organism.molecule.organic.Amine;
 import lombok.extern.slf4j.Slf4j;
 
 /**

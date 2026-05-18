@@ -1,4 +1,4 @@
-package br.com.diegorsilva.human_body.domain.entities.organic_molecule;
+package br.com.diegorsilva.human_body.domain.entities.organism.molecule.organic;
 
 /**
  * Represents a Peptide, which is a short chain of amino acids linked by peptide bonds.

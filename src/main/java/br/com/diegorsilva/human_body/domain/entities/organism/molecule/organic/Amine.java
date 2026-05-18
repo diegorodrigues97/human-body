@@ -1,4 +1,4 @@
-package br.com.diegorsilva.human_body.domain.entities.organic_molecule;
+package br.com.diegorsilva.human_body.domain.entities.organism.molecule.organic;
 
 /**
  * Represents an Amine, an organic compound and a functional group that contains a basic nitrogen atom with a lone pair.

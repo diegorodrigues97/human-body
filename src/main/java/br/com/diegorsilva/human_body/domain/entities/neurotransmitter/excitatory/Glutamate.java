@@ -1,6 +1,6 @@
 package br.com.diegorsilva.human_body.domain.entities.neurotransmitter.excitatory;
 
-import br.com.diegorsilva.human_body.domain.entities.organic_molecule.IAminoAcid;
+import br.com.diegorsilva.human_body.domain.entities.organism.molecule.organic.IAminoAcid;
 import lombok.extern.slf4j.Slf4j;
 
 /**

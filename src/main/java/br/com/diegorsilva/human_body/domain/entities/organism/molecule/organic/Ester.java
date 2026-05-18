@@ -1,4 +1,4 @@
-package br.com.diegorsilva.human_body.domain.entities.organic_molecule;
+package br.com.diegorsilva.human_body.domain.entities.organism.molecule.organic;
 
 /**
  * Represents an Ester, a chemical compound derived from an acid in which at least one -OH group

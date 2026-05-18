@@ -1,4 +1,4 @@
-package br.com.diegorsilva.human_body.domain.entities.organic_molecule;
+package br.com.diegorsilva.human_body.domain.entities.organism.molecule.organic;
 
 /**
  * Defines the contract for an amino acid, the organic compounds that combine to form proteins.
