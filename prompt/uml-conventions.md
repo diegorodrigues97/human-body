@@ -23,4 +23,6 @@ To ensure clarity, consistency, and readability, apply the following visual styl
   ```
 
 ## Naming Conventions
-- Always adhere to the project's general `naming-conventions.md`. For example, all interfaces must be prefixed with `I` (e.g., `IHormone`, `ICell`).
+- While the source code follows a strict prefixing convention (e.g., `ACarbohydrate`, `ECarbohydrateType`), **all names within UML diagrams must omit these prefixes**.
+- The goal is to represent the conceptual model, not the literal implementation. For example, in a diagram, use `Carbohydrate` instead of `ACarbohydrate` and `CarbohydrateType` instead of `ECarbohydrateType`.
+- The diagram's visual styling (e.g., dashed borders for abstract classes) is sufficient to indicate the nature of the component.
