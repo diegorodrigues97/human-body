@@ -1,8 +1,8 @@
 package br.com.diegorsilva.human_body.domain.entities.organism.molecule.organic.nitrogenousbase;
 
-import br.com.diegorsilva.human_body.domain.entities.organism.molecule.organic.nitrogenousbase.family.ENitrogenousBaseFamily;
+import br.com.diegorsilva.human_body.domain.entities.organism.molecule.AMolecule;
+import br.com.diegorsilva.human_body.domain.entities.organism.molecule.organic.EMoleculeBondType;
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 
 /**
  * Represents a nitrogenous base (base nitrogenada).
@@ -16,7 +16,9 @@ import lombok.RequiredArgsConstructor;
  * </ul>
  */
 @Getter
-@RequiredArgsConstructor
-public abstract class ANitrogenousBase {
-    private final ENitrogenousBaseFamily family;
+public abstract class ANitrogenousBase extends AMolecule {
+
+    public ANitrogenousBase(String chemicalFormula, EMoleculeBondType bondType) {
+        super(chemicalFormula, bondType);
+    }
 }
